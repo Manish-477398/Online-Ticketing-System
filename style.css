@@ -1,0 +1,158 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.fnav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 5px;
+    color: white;
+    background-color: rgb(42,42,68);
+}
+.fnav .left{
+    display: flex;
+    margin-top: 11px;
+    text-align: center;
+
+}
+.fnav .left img{
+    width: 35%;
+}
+.left input{
+    margin-inline: 12px;
+    width: 500px;
+    height: 35px;
+    border: none;
+    text-align: center;
+    margin-top: 17px;
+}
+.fnav .right{
+    display: flex;
+    margin-top: 15px;
+}
+.left p{
+    margin-inline: 45px;
+    front-size: 25px;
+}
+.right button{
+    margin-inline: 23px;
+    width: 75px;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(244,69,98);
+    color: white;
+}
+.right i{
+    margin-inline: 28px;
+    font-size: 22px;
+}
+.main img{
+    width: 100%;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+.fnav img{
+    width: 95px;
+    height: 70px;
+}
+.sec-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: rgb(26,26,48);
+    color: white;
+}
+
+.sec-nav .s-left{
+    display: flex;
+}
+.sec-nav .s-right{
+    display: flex;
+    margin-inline-start: 400px;
+}
+.s-left p{
+    margin-inline-start: 55px;
+}
+.s-right p{
+    margin-inline-start: 55px;
+}
+.sec-nav p:hover{
+    color: rgb(245,70,99);
+    cursor: pointer;
+    font-weight: 800;
+}
+.container .card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.card img{
+    width: 250px;
+    height: 250px;
+    margin-block: 20px;
+    border-radius: 8px;
+}
+.event img{
+    width: 250px;
+    height: 250px;
+}
+.container .event{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.event img{
+    width: 250px;
+    height: 250px;
+    margin-block: 20px;
+    border-radius: 15px;
+}
+h2{
+    color: black;
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+.footer img{
+    text-align: center;
+}
+.banner img{
+    width: 100%;
+    margin-top: 44px;
+}
+.premier{
+    background-color: rgb(8,8,19);
+    color: white;
+    padding: 33px;
+    margin-top: 44px;
+}
+.premier h2{
+    color: white;
+}
+.footer{
+    background-color: rgb(227,218,218);
+    padding: 35px;
+    margin-top: 30px;
+}
+.footer img{
+    background-color: rgb(227,218,218);
+    width: 35%;
+    margin-left: 30%;
+    border-top: 5px solid gray;
+}
+.footer .icon{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.icon i{
+    margin-inline: 5px;
+    font-size: 25Px;
+    font-size: 28px;
+}
